@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "s_vdet"
+version = "0.1.0"
+description = "Network & Host Vulnerability Detector - CLI tool for port scanning, service fingerprinting, misconfiguration checks, and CVE matching"
+authors = [{ name = "sithu-afk" }]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "flake8>=6.0"]
+
+[project.urls]
+Homepage = "https://github.com/sithu-afk/s_vdet"
+Issues = "https://github.com/sithu-afk/s_vdet/issues"
+
+[project.scripts]
+vdet = "vdet.cli:main"
+
+[tool.setuptools]
+packages = ["vdet", "vdet.data"]
+# Note: smb_fingerprint.py lives inside the vdet package (no separate
+# subpackage needed) - it's already covered by the "vdet" entry above.

@@ -1,0 +1,4 @@
+# s_vdet uses only the Python standard library at runtime -
+# no third-party dependencies required.
+#
+# Everything below is optional / dev tooling.
