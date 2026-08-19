@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <img src="https://raw.githubusercontent.com/sithu-afk/s_vdet/main/assets/logo.png" alt="s_vdet logo" width="180">
+  <img src="https://raw.githubusercontent.com/sithu-afk/s_vdet/main/logo.png" alt="s_vdet logo" width="180">
 </p>
 
 # s_vdet — Network & Host Vulnerability Detector
