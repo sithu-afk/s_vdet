@@ -18,7 +18,7 @@ and CVE matching. Command name: **`vdet`**.
 ```bash
 git clone https://github.com/sithu-afk/s_vdet.git
 cd s_vdet
-pip install -e .
+pip install -e . --break-system-packages
 ```
 
 This installs the `vdet` command. No third-party dependencies required —
