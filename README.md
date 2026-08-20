@@ -21,8 +21,7 @@ and CVE matching. Command name: **`vdet`**.
 ```bash
 git clone https://github.com/sithu-afk/s_vdet.git
 cd s_vdet
-unzip vdet folder
-cd vdet
+unzip vdet 
 pip install -e . --break-system-packages
 ```
 
